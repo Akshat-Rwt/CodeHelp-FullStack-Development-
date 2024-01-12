@@ -1,0 +1,28 @@
+h1{
+    /* X axis , y Axis , Blue Effect , Color  */
+    text-shadow: 3px 3px 3px red ;
+    text-shadow: 3px 3px 3px red , 5px 5px 5px green;
+}
+
+.box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 20px  green ;
+
+    /* Issme agar apne koi color nhi de rkha h to jo apke text ka color ha vhe apke shadow ka color hota ha  */
+
+     /* By using negative value we change the direction  */ 
+    box-shadow: 10px 10px 20px  green , -10px -10px 10px red;
+   
+
+}
+
+.border{
+    background-color: aqua ;
+    margin: 10px ;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px black , -1px -1px black;
+}
