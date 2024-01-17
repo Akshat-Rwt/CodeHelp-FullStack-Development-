@@ -1,0 +1,44 @@
+div{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine ;
+}
+
+.wrapper{
+    height: 1000px;
+    width: 1000px;
+    background-color: beige;
+}
+
+/* Relative property */
+
+/* .box3{
+   position: relative;
+   top: 100px;
+   left: 100px;
+} */
+
+/* Fixed Property */
+/* .box1{
+    position: fixed;
+} */
+
+/* Relative Position */
+.box3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+/* Ye vala cheex kya krte h ke ye parent div ke respect me apne ap ko change krte h  */
+
+.box4{
+    position: sticky;
+    top: 0px;
+}
+
+/* ye box ko stick kr dega taake jb me scroll kre to box vhe rhe  */
+
+
+
