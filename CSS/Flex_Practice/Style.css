@@ -6,14 +6,22 @@
 
     /* flex-wrap: wrap;        Default value if no wrap  */
 
-    justify-content: flex-start;
+    /* Main axis or you can say x-axis ke leye ye use hota h Justify content  */
+
+    /* justify-content: flex-start;
     justify-content: flex-end;
     justify-content: center;
     justify-content: space-around;
     justify-content: space-evenly;
-    justify-content: space-between;
+    justify-content: space-between; */
    
-
+    /* Cross axis or you can say y axis ke leye isko use krte h align items 
+     */
+    align-items: flex-start ;
+    align-items: flex-end ;
+    align-items: center ;
+    align-items: stretch ;  /* It is a by default value  */
+    align-items: baseline;
 }
 
 .box{
