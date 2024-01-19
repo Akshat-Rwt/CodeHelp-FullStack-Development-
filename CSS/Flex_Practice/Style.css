@@ -2,6 +2,7 @@
     height: 400px;
     border: 1px solid green;
     display: flex;
+
     /* flex-direction: row; */
 
     /* flex-wrap: wrap;        Default value if no wrap  */
@@ -17,14 +18,27 @@
    
     /* Cross axis or you can say y axis ke leye isko use krte h align items 
      */
-    align-items: flex-start ;
+    /* align-items: flex-start ;
     align-items: flex-end ;
     align-items: center ;
     align-items: stretch ;  /* It is a by default value  */
-    align-items: baseline;
+    /* align-items: baseline; */ 
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+    
 }
 
 .box{
     border: 1px solid brown;
     background-color: aqua;
+    width: 100px;
 }
