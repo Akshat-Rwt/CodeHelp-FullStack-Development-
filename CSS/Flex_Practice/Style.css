@@ -42,10 +42,17 @@
     border: 1px solid brown;
     background-color: aqua;
     width: 90px;
+    flex-basis: 1;
+
+    /* Flex basis and width e me difference hota h  agar hmne kuch content likha ha tb aagar hm width ka use krege to agar content bda hoga tp usse trim kr dega pr agar hm flexbasis ka use krege to vo us box ko tb tk bda krege jb tk pura content usme a na jae 
+     */
+     
 }
 
 #box1{
     order: 1;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
 }
 
 #box2{
